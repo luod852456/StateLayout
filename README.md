@@ -1,21 +1,10 @@
 # StateLayout
 
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-  
-  dependencies {
-	        implementation 'com.github.luod852456:StateLayout:1.0.1'
-	}
+implementation 'com.github.luod852456:StateLayout:1.0.1'
   
   
-  
-/**
-*继承SStateLayout自定义StateLayout的空白页面和出错页面
-*/
+继承SStateLayout自定义StateLayout的空白页面和出错页面
+
 
 public class StateLayout extends SStateLayout<EmptyView, ErrorView> {
 
