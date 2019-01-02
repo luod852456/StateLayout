@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StateLayout</string>
+
+    <string name="no_content_for_the_time">暂时没有内容哦</string>
+    <string name="no_network_and_refresh">网络异常啦，刷新重试</string>
+</resources>
