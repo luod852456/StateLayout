@@ -13,7 +13,10 @@ allprojects {
   
   
   
-//继承SStateLayout自定义StateLayout的空白页面和出错页面
+/**
+*继承SStateLayout自定义StateLayout的空白页面和出错页面
+*/
+
 public class StateLayout extends SStateLayout<EmptyView, ErrorView> {
 
     public StateLayout(Context context) {
@@ -50,3 +53,5 @@ public class StateLayout extends SStateLayout<EmptyView, ErrorView> {
         return errorView;
     }
 }
+
+
