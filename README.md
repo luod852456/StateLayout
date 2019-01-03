@@ -3,7 +3,6 @@
 # Gradle
 https://jitpack.io/#luod852456/StateLayout
 ```xml
-    
     <com.luodong.statelayout.view.StateLayout
         android:id="@+id/v_state_layout"
         android:layout_width="match_parent"
@@ -15,15 +14,16 @@ https://jitpack.io/#luod852456/StateLayout
 
     </com.luodong.statelayout.view.StateLayout>
 ```
-提供三个显示页面的方法
 
+提供三个显示页面的方法
+```xml
     showContent();//显示内容
     showError();//显示错误
     showEmpty();//显示空白
-
+```
 继承SStateLayout可实现自定义StateLayout的空白页面和出错页面
 
-```java
+```xml
     public class StateLayout extends SStateLayout<EmptyView, ErrorView> {
     
         public StateLayout(Context context) {
