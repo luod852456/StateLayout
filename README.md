@@ -23,6 +23,7 @@
     showContent();//显示内容
     showError();//显示错误
     showEmpty();//显示空白
+    updateStateForCount(int count)//0:显示空白;>=1:显示内容（用于list）
 ```
 # 自定义状态页面
 继承SStateLayout可实现自定义StateLayout的空白页面和出错页面
