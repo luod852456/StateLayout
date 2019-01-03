@@ -1,8 +1,7 @@
 # StateLayout
 
 # Gradle
-[![gradle]](https://jitpack.io/#luod852456/StateLayout)  
-[gradle]:https://camo.githubusercontent.com/c7f06cca4f52ed0381ba7771e51181e12558c4ff/68747470733a2f2f6a69747061636b2e696f2f762f7a6a3536353036313736332f737769746368627574746f6e2e737667 "Logo" 
+[![https://camo.githubusercontent.com/c7f06cca4f52ed0381ba7771e51181e12558c4ff/68747470733a2f2f6a69747061636b2e696f2f762f7a6a3536353036313736332f737769746368627574746f6e2e737667]](https://jitpack.io/#luod852456/StateLayout)
 
 ```xml
     <com.luodong.statelayout.view.StateLayout
