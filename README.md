@@ -22,7 +22,7 @@ https://jitpack.io/#luod852456/StateLayout
 
 继承SStateLayout可实现自定义StateLayout的空白页面和出错页面
 
-"""java
+```java
     
    
     public class StateLayout extends SStateLayout<EmptyView, ErrorView> {
@@ -63,6 +63,6 @@ https://jitpack.io/#luod852456/StateLayout
     }
   
   
-"""
+```
 
 
