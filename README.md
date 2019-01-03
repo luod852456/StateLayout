@@ -1,6 +1,7 @@
 # StateLayout
 
-implementation 'com.github.luod852456:StateLayout:1.0.1'
+# Gradle
+https://jitpack.io/#luod852456/StateLayout
     
     <com.luodong.statelayout.view.StateLayout
         android:id="@+id/v_state_layout"
